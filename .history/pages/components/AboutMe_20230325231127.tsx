@@ -13,8 +13,8 @@ const AboutMe = () => {
        
         
 
-        <div className=" text-[#FFFCF6] relative right-20 bottom-40     ">
-            <div className=" absolute  mx-60 my-2 py-80 bottom-80  left-24  
+        <div className=" text-[#FFFCF6] absolute  py-4  ">
+            <div className=" absolute  mx-60 my-2 py-20 bottom-4  left-24  object-right
  ">
             <h1 className="  font-raleway font-bold  text-[50px]">About me</h1>
             <br/>
