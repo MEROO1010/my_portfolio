@@ -5,7 +5,7 @@ const Form = () => {
     <div>
         <input type="text" placeholder='Your Name' className=" relative  px-80 mx-80 bottom-24 left-44 h-14 w-0 rounded-full"/><br/>
         <input type="text" className=" relative  px-80 mx-80 bottom-8 left-44 h-14 w-0 rounded-full"/><br/>
-        <textarea  className=" relative py-2 px-10 my-6 mx-60  left-60  w-200 h-14 rounded-full">Message</textarea>
+        <textarea  className=" relative px-60  mx-60  left-60  w-200 h-14 rounded-full">Message</textarea>
         <button type="submit" className="relative px-80 mx-80 top-20 left-44 h-14 w-10 font-raleway text-[24px] font-semibold text-[#FFFCF6]  bg-[#B8BFD6] rounded-full">Send</button>
         
     </div>
