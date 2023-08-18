@@ -15,7 +15,7 @@ const Experience = () => {
         </div>
         <div>
           <Image 
-            className="animate__animated animate__bounce "
+            className="animate__animated animate__bounce relative mx-80 px-60 top-80  left-80"
             src="/assets/images/programming-languges.png" alt={""}
             width={542}
             height={542}/>

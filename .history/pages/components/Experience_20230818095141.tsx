@@ -13,13 +13,22 @@ const Experience = () => {
             Experience
           </h1>
         </div>
-        <div>
-          <Image 
-            className="animate__animated animate__bounce "
-            src="/assets/images/programming-languges.png" alt={""}
+        <motion.div
+          className="relative mx-80 px-60 top-80  left-80 "
+          whileHover={{ scale: 1.2, rotate: 360 }}
+          whileTap={{
+            scale: 0.8,
+            rotate: -360,
+            borderRadius: "100%",
+          }}
+        >
+          <Image
+            src="/assets/images/programming-languges.png"
+            alt="laptop"
             width={542}
-            height={542}/>
-        </div>
+            height={542}
+          />
+        </motion.div>
         <div></div>
 
         <motion.div className="relative mx-10   px-20  bottom-48  left-8"
