@@ -8,8 +8,8 @@ const Experience = () => {
   return (
     <div className="relative   bottom-80">
       <div className="relative  bottom-80      " >
-      <div className="bg-[#19335A] static py-12">
-        <div className="absolute px-60 py-20 mx-80 left-24  ">
+      <div className="bg-[#19335A] static py-14">
+        <div className="absolute px-80 py-20 mx-80 left-20  ">
           <h1 className="text-[#FFFCF6] text-[46px]  font-raleway font-bold ">
             Experience
           </h1>
@@ -22,16 +22,17 @@ const Experience = () => {
       animate={{ opacity: 1, scale: 1 }}
       
     >
-        <div >
+        <div>
           <Image 
-            className="relative mx-4 left-24 top-60 "
+            className="relative px-4 "
             src="/assets/images/programming-languges.png" alt={""}
             width={542}
             height={542}
             />
         </div>
         </motion.div>
-        <div className="relative mx-60 left-80 bottom-80 ">
+        <div></div>
+
         <motion.div
       className="box"
       whileHover={{ scale: 1.1 }}
@@ -40,16 +41,12 @@ const Experience = () => {
       animate={{ opacity: 1, scale: 1 }}
     >
           <Image
-            className="relative mx-60  left-8 top-11 "
             src="/assets/images/software.png"
             alt="laptop"
             width={542}
             height={542}
           />
         </motion.div>
-        </div>
-
-        
       </div>
     </div>
     </div>

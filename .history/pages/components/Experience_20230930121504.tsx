@@ -9,7 +9,7 @@ const Experience = () => {
     <div className="relative   bottom-80">
       <div className="relative  bottom-80      " >
       <div className="bg-[#19335A] static py-12">
-        <div className="absolute px-60 py-20 mx-80 left-24  ">
+        <div className="absolute px-50 py-20 mx-80 left-20  ">
           <h1 className="text-[#FFFCF6] text-[46px]  font-raleway font-bold ">
             Experience
           </h1>

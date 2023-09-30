@@ -5,7 +5,7 @@ const ContactMe =() =>{
 
 
   return (
-    <div className="relative  bottom-80">
+    <div className="relative py-40 bottom-80">
       <div className=" static py-80 top-80      bg-[#19335A]">
     <div className="h-100  ">
   <div>
