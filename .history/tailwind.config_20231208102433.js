@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  pages:'./pages',
    purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   content: [
+    
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
     './app/**/*.{js,ts,jsx,tsx}',
@@ -10,7 +12,7 @@ module.exports = {
     extend:
     {
       fontFamily: {
-        'raleway': ['Montserrat', 'sans-serif']
+        'raleway': ['Raleway', 'sans-serif']
       },
     },
   },
